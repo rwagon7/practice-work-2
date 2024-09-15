@@ -1,4 +1,6 @@
 /*
+    FUNCTIONAL COMPOSITION
+
     let functions be an array of functions, apply the functions in reverse order.
     functions = [f(x), g(x), h(x)] -> f(g(h(x)))
     
