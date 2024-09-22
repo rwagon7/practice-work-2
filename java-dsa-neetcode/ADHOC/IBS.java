@@ -1,6 +1,6 @@
 import java.util.Optional;
 
-public class Problem {
+public class IBS {
 
     public static String numString = "2214";
     public static long noOfPermutations = 0l;
