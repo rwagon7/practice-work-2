@@ -1,4 +1,4 @@
-public class Problem2 {
+public class IBS_2 {
 
     public static String[][] map_arr = {
 

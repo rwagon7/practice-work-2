@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Optional;
 
-class Array1 {
+class FirstMissingPositiveNumber {
 
     // Problem statement
     // create a method that returns first missing positive value
@@ -18,7 +18,7 @@ class Array1 {
         int j = 0;
         // sorted an array
         Arrays.sort(arr);
-        
+
         System.out.println(Arrays.toString(arr));
         // value of checkdiff
         int checkdiff = 0;
