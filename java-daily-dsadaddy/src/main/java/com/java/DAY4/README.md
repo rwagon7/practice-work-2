@@ -23,3 +23,7 @@
 - Not take any zeroes
 - Always result a single array with length 2
 - Need Not be strict on duplicate elements
+
+### Time complexity && space complexity
+- O(n^2) time complexity
+- O(1) space complexity
