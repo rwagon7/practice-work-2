@@ -1,6 +1,6 @@
 /* 
 
-    - Asynchronus code means it ia a non blocking code the followinf statements will not wait for furst stateement to complete
+    - Asynchronus code means it ia a non blocking code the following statements will not wait for first statement to complete
     eg: setTimeout(hello, 1000)
 
     function hello() {

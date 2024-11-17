@@ -8,7 +8,7 @@ var reduce = function (nums, fn, init) {
     //     res = fn(res, n);
     // }
     // return res;
-    // metod2
+    // method2
     return nums.reduce(fn, init);
 };
 function fn(init, n) {

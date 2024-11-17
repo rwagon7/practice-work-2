@@ -1,12 +1,12 @@
 /* 
-    promises are the ones that always returna solution but are asynchronus, to block a task if the netwrok call or disk write in time is taking 
+    promises are the ones that always return a solution but are asynchronus, to block a task if the network call or disk write in time is taking 
     more, we could use that function
 
     The propable way is to set timeout, everything inside promise body is synchronus.
 
     so we will take advantage of the both.
 
-    setTimeout creates a number of memory leakes if the api calls completes before the end of timelimit, soo make sure to cloase it in finnaly block
+    setTimeout creates a number of memory leaks if the api calls completes before the end of timelimit, soo make sure to closure it in finaly block
 */
 
 var timelimit = function (fn, t) {
